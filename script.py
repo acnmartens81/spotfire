@@ -8,7 +8,7 @@ def main():
     
     try:
         number = float(sys.argv[1])
-        result = math.sqrt(number)
+        result = math.sqrt(number) + 1
         print(result)  # Output the result
     except ValueError:
         print("Error: Invalid number provided.")
